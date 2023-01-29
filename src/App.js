@@ -14,9 +14,10 @@ function App() {
 
   return (<>
     <Box bgColor={"black"} spacing="0px">
-      <Header />
+      ㅅㄷㄴㅅ
+      {/* <Header />
       <About />
-      <Work />
+      <Work /> */}
     </Box>
   </>
   );
