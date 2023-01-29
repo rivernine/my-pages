@@ -16,7 +16,7 @@ export default function Others({ OthersFunc }) {
   return (<>
     <Box id="work" ref={othersRef} w="100%" py="100px"
       justifyContent={"center"} alignItems="center" display="flex"
-      bgColor="tomato">
+      bgColor="#0f1218">
         <Box w="1000px" h="500px" bgColor="blue.100">
 
         </Box>

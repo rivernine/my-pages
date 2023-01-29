@@ -1,16 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Grid, GridItem, Image, Avatar, Flex, Spacer } from "@chakra-ui/react";
-import background from "../../assets/background.jpg";
 import antsound from "../../assets/antsound.ico";
 import teenblur from "../../assets/teenblur.png";
-import profile from "../../assets/profile.jpg";
-import { FaGithub, FaMobileAlt, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaGraduationCap, FaRegStar } from 'react-icons/fa';
+import { FaGithub, } from 'react-icons/fa';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Intro() {
-  // const bg = useColorModeValue('linear(rgb(248, 250, 253), rgba(248, 250, 253, 10))', 'linear(rgb(34, 37, 49), rgba(34, 37, 49, 10))')
-  const bg = useColorModeValue('#091C7E', '#1a202c')
-  const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
-  const [isLargerThan1400] = useMediaQuery('(min-width: 1400px)')
 
   return (<>
     <Box w="100%" maxWidth="1000px" bgColor="#00000050" borderRadius={"30px"}
@@ -19,11 +14,48 @@ export default function Intro() {
     >
       <VStack px="50px" py="50px">
         <Flex flexDir="column" mb="50px">
-          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요 저는 강재구입니다<span style={{color: "#ED8936"}}>.</span></Text>
-          <Text fontSize="lg" fontWeight={400} color="white">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800" }}>블록체인 서비스 백엔드 개발</span>을 하고있습니다.</Text>
-          <Text fontSize="lg" fontWeight={400} color="white">다양한 SI프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
+          <HStack mb="20px">
+            <Text style={{
+              fontSize: 12, fontWeight: 400, color: "#FFFFFF",
+              fontFamily: 'GmarketSansMedium'
+            }}>I build
+              <TypeAnimation
+                sequence={[
+                  ' back-end architecture.',
+                  2000,
+                  ' blockchain service.',
+                  2000,
+                  ' RESTful server.',
+                  2000,
+                  ' monitoring system.',
+                  2000,
+                  ' ETL service.',
+                  2000,
+                  ' CI/CD pipeline.',
+                  2000,
+                  ' backoffice.',
+                  2000,
+                  ' Androud & iOS application.',
+                  2000,
+                  ' web application.',
+                  2000,
+                ]}
+                speed={40}
+                style={{
+                  fontSize: 12, fontWeight: 800, color: "#ED8936",
+                  fontFamily: 'GmarketSansMedium'
+                }}
+                wrapper="span"
+                repeat={Infinity}
+              />
+            </Text>
+
+          </HStack>
+          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요 저는 강재구입니다<span style={{ color: "#ED8936" }}>.</span></Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800", color: "white" }}>블록체인 서비스 백엔드 개발</span>을 하고있습니다.</Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">다양한 SI프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
           <br />
-          <Text fontSize="lg" fontWeight={400} color="white">동작 보다는 <span style={{ fontWeight: "700" }}>데이터 중심의 프로그래밍</span>을 통해 최적화와 일관성을 고민하고, 코드리뷰 및 리팩토링에 많은 시간을 투자합니다.</Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">동작 보다는 <span style={{ fontWeight: "800", color: "white" }}>데이터 중심의 프로그래밍</span>을 통해 최적화와 일관성을 고민하고, 코드리뷰 및 리팩토링에 많은 시간을 투자합니다.</Text>
         </Flex>
 
         <HStack>
