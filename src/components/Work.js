@@ -99,37 +99,6 @@ export default function Work({ WorkFunc }) {
             )
           })
         }
-        {/* 
-        <Divider style={{ marginTop: 60, marginBottom: 20 }} />
-        <Grid w="100%" templateColumns='repeat(10, 1fr)' gap={4}>
-          <GridItem colSpan={3}>
-            <Text fontSize={"2xl"} fontWeight="700" color="black"
-              textDecoration={"underline"} textDecorationColor="orange.400"
-              textDecorationThickness={2} textUnderlineOffset="4px"
-            >
-              빗썸 NFT플랫폼 구축
-            </Text>
-            <Text fontSize={"lg"} fontWeight="700" color="gray.500">
-              2022.01 ~ 11
-            </Text>
-          </GridItem>
-          <GridItem colSpan={7} bgColor="tomato"></GridItem>
-        </Grid>
-        <Divider />
-        <Grid w="100%" templateColumns='repeat(10, 1fr)' gap={4}>
-          <GridItem colSpan={3}>
-            <Text fontSize={"2xl"} fontWeight="700" color="black"
-              textDecoration={"underline"} textDecorationColor="orange.400"
-              textDecorationThickness={2} textUnderlineOffset="4px"
-            >
-              Token As a Service
-            </Text>
-            <Text fontSize={"lg"} fontWeight="700" color="gray.500">
-              2022.12 ~ 현재
-            </Text>
-          </GridItem>
-          <GridItem colSpan={7} bgColor="tomato"></GridItem>
-        </Grid> */}
       </VStack>
     </Box>
   </>

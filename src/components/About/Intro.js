@@ -19,7 +19,7 @@ export default function Intro() {
     >
       <VStack px="50px" py="50px">
         <Flex flexDir="column" mb="50px">
-          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요 저는 강재구입니다.</Text>
+          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요 저는 강재구입니다<span style={{color: "#ED8936"}}>.</span></Text>
           <Text fontSize="lg" fontWeight={400} color="white">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800" }}>블록체인 서비스 백엔드 개발</span>을 하고있습니다.</Text>
           <Text fontSize="lg" fontWeight={400} color="white">다양한 SI프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
           <br />

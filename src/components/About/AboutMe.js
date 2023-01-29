@@ -10,8 +10,8 @@ export default function AboutMe() {
   const [isLargerThan1400] = useMediaQuery('(min-width: 1400px)')
 
   return (<>
-    <Box w="100%" maxWidth="1000px" h="500px" display="flex" alignItems={"center"}>
-      <Grid w="100%" 
+    <Box w="1000px" h="500px" px="10px" display="flex" alignItems={"center"}>
+      <Grid 
         templateColumns='repeat(10, 1fr)' gap={4}>
         <GridItem colSpan={3}>
           <Image src={profile} style={{ width: 150, height: 150 }} borderRadius="30px" shadow={4} />
