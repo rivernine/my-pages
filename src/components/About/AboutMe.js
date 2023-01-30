@@ -11,14 +11,14 @@ export default function AboutMe() {
 
   return (<>
     <Box w="1000px" h="500px" px="10px" display="flex" alignItems={"center"}>
-      <Grid 
+      <Grid
         templateColumns='repeat(10, 1fr)' gap={4}>
         <GridItem colSpan={3}>
           <Image src={profile} style={{ width: 150, height: 150 }} borderRadius="30px" shadow={4} />
         </GridItem>
         <GridItem colSpan={7}>
           <Flex flexDir={"column"}>
-            <Text fontSize={"2xl"} fontWeight="700" color="white">About me</Text>
+            <Text fontSize={"2xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>me</span></Text>
             <Text mt="15px" color="white" fontWeight={400}>
               Java & Spring 기반의 서버 구축 및 컨테이너 환경의 서비스 배포를 주로 해왔습니다.
               ELK Stack / Prometheus & Grafana 를 사용하여 서버의 모니터링 환경을 구축하고

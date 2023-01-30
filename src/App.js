@@ -13,10 +13,10 @@ function App() {
 
   return (<>
     <Box bgColor={"black"} spacing="0px">
-      <Header AboutFunc={AboutFunc} WorkFunc={WorkFunc} />
+      <Header AboutFunc={AboutFunc} WorkFunc={WorkFunc} OthersFunc={OthersFunc}/>
       <About AboutFunc={AboutFunc} />
       <Work WorkFunc={WorkFunc} />
-      <Others WorkFunc={OthersFunc} />
+      <Others OthersFunc={OthersFunc} />
     </Box>
   </>
   );

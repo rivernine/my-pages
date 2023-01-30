@@ -27,6 +27,8 @@ export default function Intro() {
                   2000,
                   ' RESTful server.',
                   2000,
+                  ' automation tools.',
+                  2000,
                   ' monitoring system.',
                   2000,
                   ' ETL service.',
@@ -35,7 +37,7 @@ export default function Intro() {
                   2000,
                   ' backoffice.',
                   2000,
-                  ' Androud & iOS application.',
+                  ' Android & iOS application.',
                   2000,
                   ' web application.',
                   2000,
@@ -51,7 +53,7 @@ export default function Intro() {
             </Text>
 
           </HStack>
-          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요 저는 강재구입니다<span style={{ color: "#ED8936" }}>.</span></Text>
+          <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요. <span style={{ color: "#ED8936" }}>강재구</span>입니다.</Text>
           <Text fontSize="lg" fontWeight={400} color="#FFFFFF">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800", color: "white" }}>블록체인 서비스 백엔드 개발</span>을 하고있습니다.</Text>
           <Text fontSize="lg" fontWeight={400} color="#FFFFFF">다양한 SI프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
           <br />

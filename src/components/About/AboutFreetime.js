@@ -20,12 +20,10 @@ export default function AboutFreetime() {
           justifyContent="center" alignItems="center"
         >
           <Grid templateColumns='repeat(10, 1fr)' gap={4} px="60px">
-            {/* <GridItem colSpan={3}>
-            <Image src={profile} style={{ width: 150, height: 150 }} borderRadius="30px" shadow={4} />
-          </GridItem> */}
+
             <GridItem colSpan={10}>
               <Flex flexDir={"column"}>
-                <Text fontSize={"2xl"} fontWeight="700" color="white">About freetime</Text>
+                <Text fontSize={"2xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>freetime</span></Text>
                 <Text mt="15px" color="white" fontWeight={400}>
                   다양한 주제에 대해 브레인스토밍하는 것을 좋아합니다.
                   학습한 내용이나 새로운 아이디어는 남는 시간을 활용하여 구체화합니다.
