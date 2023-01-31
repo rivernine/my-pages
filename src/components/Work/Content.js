@@ -1,14 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Flex, Grid, GridItem, Divider } from "@chakra-ui/react";
+import React from 'react';
+import { Text, Box, Flex, Grid, GridItem, Divider } from "@chakra-ui/react";
 import { FaCircle } from 'react-icons/fa';
 
 export default function Content({
   project, date, hasCustomer, customer, title, details, divide
 }) {
   let idx = 0;
-  const bg = useColorModeValue('#091C7E', '#1a202c')
-  const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
-  const [isLargerThan1400] = useMediaQuery('(min-width: 1400px)')
 
   return (<>
     <Grid w="100%" templateColumns='repeat(10, 1fr)' gap={4}>

@@ -1,13 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Grid, GridItem, Image, Avatar, Flex, Spacer } from "@chakra-ui/react";
+import React from 'react';
+import { HStack, Text, Box, VStack, Grid, GridItem, Image, Flex } from "@chakra-ui/react";
 import profile from "../../assets/profile.jpg";
-import { FaGithub, FaMobileAlt, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaGraduationCap, FaRegStar } from 'react-icons/fa';
+import { FaMobileAlt, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaGraduationCap, FaRegStar } from 'react-icons/fa';
 
 export default function AboutMe() {
-  // const bg = useColorModeValue('linear(rgb(248, 250, 253), rgba(248, 250, 253, 10))', 'linear(rgb(34, 37, 49), rgba(34, 37, 49, 10))')
-  const bg = useColorModeValue('#091C7E', '#1a202c')
-  const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
-  const [isLargerThan1400] = useMediaQuery('(min-width: 1400px)')
 
   return (<>
     <Box w="1000px" h="500px" px="10px" display="flex" alignItems={"center"}>

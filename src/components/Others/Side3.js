@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Wrap, useMediaQuery, HStack, Text, Box, VStack, Flex, Grid, GridItem, Image, Spacer, Button, ArrowFor } from "@chakra-ui/react";
-import { FaCircle, FaLink } from 'react-icons/fa';
+import React from 'react';
+import { Text, Box, VStack, Flex, Image, } from "@chakra-ui/react";
+import { FaCircle } from 'react-icons/fa';
 import cryptoGeneratorIntro from '../../assets/crypto-generator-intro.png'
 
-export default function Side3({ OthersFunc }) {
+export default function Side3() {
 
   return (<>
     <Box w="1000px" h="500px">

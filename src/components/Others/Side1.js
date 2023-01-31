@@ -1,23 +1,15 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Wrap, useMediaQuery, HStack, Text, Box, VStack, Flex, Grid, GridItem, Image, Spacer, Button, ArrowFor } from "@chakra-ui/react";
+import React from 'react';
+import { Text, Box, VStack, Flex, Image, Button } from "@chakra-ui/react";
 import { FaCircle, FaLink } from 'react-icons/fa';
 import teenblurIntro from '../../assets/teenblur-intro.png'
 
-export default function Side1({ OthersFunc }) {
-
-  // const gotoScroll = () => {
-  //   othersRef.current?.scrollIntoView({ behavior: 'smooth' });
-  // }
-
-  // useEffect(() => {
-  //   OthersFunc.gotoScroll = gotoScroll
-  // }, [])
+export default function Side1() {
 
   return (<>
-    <Box w="1000px" h="500px">
+    <Box w="1000px">
       <Box display="flex" position="relative">
-        <Image src={teenblurIntro} style={{ width: 500, height: 500, }} borderRightRadius="30px" shadow={4} zIndex={0} />
-        <Box w="600px" h="400px" bgColor={"#191e28"} mt="50px" right="0"
+        <Image src={teenblurIntro} style={{ width: 500, height: "auto", }} borderRightRadius="30px" shadow={4}/>
+        <Box w="600px" bgColor={"#191e28"} mt="50px" right="0"
           position="absolute" borderRadius={"30px"} p="40px" >
           <Text fontSize="sm" fontWeight="400" color="#AAAAAA">학생 전용 모바일 플랫폼</Text>
           <Text fontSize={"2xl"} fontWeight="700" color="white">
@@ -28,7 +20,7 @@ export default function Side1({ OthersFunc }) {
           <Text fontWeight="400" color="#AAAAAA">
             학생만 입장할 수 있는 소통의 공간을 만들기 위해 시작한 프로젝트
           </Text>
-          <VStack h="250px" mt="40px" alignItems={"start"}>
+          <VStack mt="40px" alignItems={"start"}>
             <Flex mb="4px" alignItems={"center"}>
               <FaCircle color="#ED8936" size="10" style={{ marginRight: 10 }} />
               <Text color="#FFFFFF">디자인 퍼블리싱 및 React-Native를 사용하여 Android & iOS 앱 개발</Text>
@@ -56,13 +48,6 @@ export default function Side1({ OthersFunc }) {
           </VStack>
         </Box>
       </Box>
-      {/* <Box  display="flex" px="10px"
-        bgImage={`url(${teenblurIntro})`} bgRepeat="no-repeat" bgSize={"cover"}
-        justifyContent="center" alignItems="center"
-        borderRightRadius={"30px"}
-      >
-
-      </Box> */}
     </Box>
   </>
   );

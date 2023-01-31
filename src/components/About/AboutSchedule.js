@@ -1,10 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Grid, GridItem, Image, Avatar, Flex, Spacer } from "@chakra-ui/react";
-import profile from "../../assets/profile.jpg";
-import { FaGithub, FaChartBar, FaRegAddressCard, FaRegBuilding, FaRobot, FaGraduationCap, FaRegStar } from 'react-icons/fa';
+import React from 'react';
+import { Text, Box, Grid, GridItem, Flex } from "@chakra-ui/react";
 import trello from '../../assets/trello.png'
-import teenblur from "../../assets/teenblur.png";
-import antsound from "../../assets/antsound.ico";
 
 
 export default function AboutSchedule() {

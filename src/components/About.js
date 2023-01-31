@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Box, IconButton } from "@chakra-ui/react";
 import background from "../assets/background.jpg";
 import { FaAngleDown } from 'react-icons/fa';
@@ -13,7 +13,7 @@ export default function About({ AboutFunc }) {
 
   useEffect(() => {
     AboutFunc.gotoScroll = gotoScroll
-  }, [])
+  })
 
   return (<>
     <Box w="100%" h="100vh" bgColor="blue.300"

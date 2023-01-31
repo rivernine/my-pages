@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 
-import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
+import { ScrollMenu } from 'react-horizontal-scrolling-menu';
 import { LeftArrow, RightArrow } from './Arrow';
 import AboutMe from './AboutMe';
 import AboutFreetime from './AboutFreetime';

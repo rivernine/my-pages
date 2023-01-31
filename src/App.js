@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useColorModeValue, useMediaQuery, VStack, Text, Box } from "@chakra-ui/react";
+import React, { useRef } from 'react';
+import { Box } from "@chakra-ui/react";
 import Header from './components/Header';
 import About from './components/About';
 import Work from './components/Work';
@@ -13,7 +13,7 @@ function App() {
 
   return (<>
     <Box bgColor={"black"} spacing="0px">
-      <Header AboutFunc={AboutFunc} WorkFunc={WorkFunc} OthersFunc={OthersFunc}/>
+      <Header AboutFunc={AboutFunc} WorkFunc={WorkFunc} OthersFunc={OthersFunc} />
       <About AboutFunc={AboutFunc} />
       <Work WorkFunc={WorkFunc} />
       <Others OthersFunc={OthersFunc} />

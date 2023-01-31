@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Flex } from "@chakra-ui/react";
+import { HStack, Text, Flex } from "@chakra-ui/react";
 
 export default function Header({ AboutFunc, WorkFunc, OthersFunc }) {
 

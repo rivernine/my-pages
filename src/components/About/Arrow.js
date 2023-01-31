@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Button, IconButton, Box, Flex } from "@chakra-ui/react";
+import React from "react";
+import { IconButton, Flex } from "@chakra-ui/react";
 import { VisibilityContext } from "react-horizontal-scrolling-menu";
-import { FaGithub, FaMobileAlt, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaAngleRight, FaAngleLeft } from 'react-icons/fa';
+import { FaAngleRight, FaAngleLeft } from 'react-icons/fa';
 
 function Left({ onClick, disabled }) {
   return (

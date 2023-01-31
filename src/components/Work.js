@@ -1,6 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Flex, Grid, GridItem, Divider } from "@chakra-ui/react";
-import { FaCircle } from 'react-icons/fa';
+import React, { useEffect, useRef } from 'react';
+import { Box, VStack, } from "@chakra-ui/react";
 import Content from './Work/Content';
 
 export default function Work({ WorkFunc }) {
@@ -77,7 +76,7 @@ export default function Work({ WorkFunc }) {
 
   useEffect(() => {
     WorkFunc.gotoScroll = gotoScroll
-  }, [])
+  })
 
   return (<>
     <Box id="work" ref={workRef} w="100%" bgColor="white" py="100px"

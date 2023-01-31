@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useColorModeValue, useMediaQuery, HStack, Text, Box, VStack, Grid, GridItem, Image, Avatar, Flex, Spacer } from "@chakra-ui/react";
-import profile from "../../assets/profile.jpg";
-import { FaGithub, FaChartBar, FaRegAddressCard, FaRegBuilding, FaRobot, FaGraduationCap, FaRegStar } from 'react-icons/fa';
+import React from 'react';
+import { HStack, Text, Box, VStack, Grid, GridItem, Avatar, Flex } from "@chakra-ui/react";
+import { FaChartBar, FaRobot, } from 'react-icons/fa';
 import github from '../../assets/github.png'
 import teenblur from "../../assets/teenblur.png";
 import antsound from "../../assets/antsound.ico";

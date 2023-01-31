@@ -1,5 +1,4 @@
-import { ColorModeScript } from '@chakra-ui/react';
-import React, { StrictMode } from 'react';
+import React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
