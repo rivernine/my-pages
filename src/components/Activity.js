@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import { Box, VStack } from "@chakra-ui/react";
+import React from 'react';
+import { Box } from "@chakra-ui/react";
 import CitySvg from './Activity/CitySvg';
 import './Activity/CitySvg.scss';
 

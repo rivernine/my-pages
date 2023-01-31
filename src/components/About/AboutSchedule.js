@@ -18,7 +18,7 @@ export default function AboutSchedule() {
             <Flex flexDir={"column"}>
               <Text fontSize={"2xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>schedule</span></Text>
               <Text mt="15px" color="white" fontWeight={400}>
-                매일 저녁, Trello를 활용하여 일정의 카테고리와 우선순위 책정, 진행도 등을 정리하여 효율적인 일정관리를 위해 노력합니다.
+                매일 저녁, Trello를 활용하여 일정의 카테고리와 우선순위 책정, 진행도 등을 정리하여 효율적인 일정 관리를 위해 노력합니다.
                 단기, 장기 목표를 설정하고 목표 달성을 위한 방법을 고민합니다. 새로운 아이디어가 생긴다면 구체화 방법과 함께 기록합니다.
               </Text>
             </Flex>

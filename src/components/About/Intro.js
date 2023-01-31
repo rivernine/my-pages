@@ -54,10 +54,10 @@ export default function Intro() {
 
           </HStack>
           <Text fontSize={"6xl"} fontWeight="900" color="white" mb="20px">안녕하세요. <span style={{ color: "#ED8936" }}>강재구</span>입니다.</Text>
-          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800", color: "white" }}>블록체인 서비스 백엔드 개발</span>을 하고있습니다.</Text>
-          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">다양한 SI프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">현재 블록체인 도메인에서 일하며 <span style={{ fontWeight: "800", color: "white" }}>블록체인 서비스 백엔드 개발</span>을 하고 있습니다.</Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">다양한 SI 프로젝트 경험을 기반으로 고가용성을 갖춘 확장형 백엔드 아키텍처를 설계합니다.</Text>
           <br />
-          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">동작 보다는 <span style={{ fontWeight: "800", color: "white" }}>데이터 중심의 프로그래밍</span>을 통해 최적화와 일관성을 고민하고, 코드리뷰 및 리팩토링에 많은 시간을 투자합니다.</Text>
+          <Text fontSize="lg" fontWeight={400} color="#FFFFFF">동작보다는 <span style={{ fontWeight: "800", color: "white" }}>데이터 중심의 프로그래밍</span>을 통해 최적화와 일관성을 고민하고, 코드리뷰 및 리팩토링에 많은 시간을 투자합니다.</Text>
         </Flex>
 
         <HStack>

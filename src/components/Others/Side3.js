@@ -17,7 +17,7 @@ export default function Side3() {
             rypto-Generator
           </Text>
           <Text fontWeight="400" color="#AAAAAA">
-            감정을 제거한 투자를 하기위해 시작한 프로젝트
+            감정을 제거한 투자를 하기 위해 시작한 프로젝트
           </Text>
           <VStack mt="40px" alignItems={"start"}>
             <Flex mb="4px" alignItems={"center"}>

@@ -25,23 +25,23 @@ export default function Work({ WorkFunc }) {
       title: "이더리움 NFT 스마트 컨트랙트 개발 및 바우처 서비스 구현",
       details: [
         "Javascript 기반의 스마트 컨트랙트 자동 생성 및 컴파일 모듈 개발",
-        "2,000번 이상의 트랜잭션이 발생한 NFT 스마트 컨트랙트 발행 (총 거래량: 약 113ETH)",
+        "2,000번 이상의 트랜잭션이 발생한 NFT 스마트 컨트랙트 발행 (총거래량: 약 113ETH)",
         "5개의 스마트 컨트랙트에 대한 감사 프로세스 진행 (주관사: Certik, 코드: 약 10,000줄, 비용: $18,000)",
         "EIP-712를 이용한 바우처서비스 구현으로 이더리움 가스비 대폭 절감 (최소 $10,000 -> $0)"
       ]
     },
     {
-      project: "P2P 분산거래 유통플랫폼",
+      project: "P2P 분산 거래 유통플랫폼",
       date: "2020.10 ~ 2021.12",
       hasCustomer: true,
       customer: "KT NET",
       title: "블록체인 및 백엔드 아키텍처 설계 & 개발 / 데이터 서비스 개발",
       details: [
         "Java & Spring 기반의 서버 개발 및 RESTful API 구현",
-        "Spring Batch를 사용하여 ETL서비스 구축",
+        "Spring Batch를 사용하여 ETL 서비스 구축",
         "Gitlab과 Jenkins를 활용한 CI/CD 파이프라인 구성으로 배포 및 빌드 자동화 환경 구성",
         "Hyperledger Fabric 아키텍처 설계 및 노드 구성, 체인코드 개발",
-        "블록체인을 튜닝하여 최대 TPS기준 write 5%, read 20% 이상 성능 개선",
+        "블록체인을 튜닝하여 최대 TPS 기준 write 5%, read 20% 이상 성능 개선",
       ]
     },
     {
@@ -53,7 +53,7 @@ export default function Work({ WorkFunc }) {
       details: [
         "React.js 기반의 어드민 페이지 개발",
         "Prometheus를 이용하여 Spring 서버 매트릭 수집, Grafana를 통해 서버 모니터링 환경 구성",
-        "Socker.io를 사용, SPA에서 Webhook과 유사한 기능을 개발하여 QR로그인 기능 구현",
+        "Socker.io를 사용, SPA에서 Webhook과 유사한 기능을 개발하여 QR 로그인 기능 구현",
       ]
     },
     {

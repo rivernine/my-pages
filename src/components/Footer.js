@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { Box, Text, IconButton, VStack } from "@chakra-ui/react";
 import { FaAngleUp } from 'react-icons/fa';
 
@@ -8,7 +8,6 @@ export default function Footer() {
     <Box id="footer" w="100%" h="200px" py="50px"
       justifyContent={"center"} alignItems="center" display="flex"
       position="relative"
-      // bgColor="#333333">
       bgColor="#0f1218">
       <VStack>
         <Text color="white" fontWeight={700} ><span style={{ color: "#ED8936" }}>강재구</span> - againine@gmail.com</Text>

@@ -31,7 +31,7 @@ export default function Side1() {
             </Flex>
             <Flex mb="4px" alignItems={"center"}>
               <FaCircle color="#ED8936" size="10" style={{ marginRight: 10 }} />
-              <Text color="#FFFFFF">SQLite와 FCM를 사용하여 푸시알림 및 실시간 채팅기능 구현</Text>
+              <Text color="#FFFFFF">SQLite와 FCM를 사용하여 푸시알림 및 실시간 채팅 기능 구현</Text>
             </Flex>
             <Flex mb="4px" alignItems={"center"}>
               <FaCircle color="#ED8936" size="10" style={{ marginRight: 10 }} />

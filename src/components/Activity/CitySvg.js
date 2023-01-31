@@ -1,14 +1,12 @@
 import React from 'react';
 import TweenMax from 'gsap'
-import $ from 'jquery';
 import { Linear } from 'gsap';
 import './CitySvg.scss';
-// window.$ = $;
 
-export default class CitySvg extends React.Component { 
+export default class CitySvg extends React.Component {
   componentDidMount() {
     this.houses = [this.houseOne, this.houseTwo, this.houseThree, this.houseFour, this.houseFive,
-      this.houseSix, this.houseSeven, this.wheel2];
+    this.houseSix, this.houseSeven, this.wheel2];
     this.index = '10';
     // $('.container').parallax({ scalarX: 5, scalarY: 5 });
     TweenMax.set(this.wheel, { transformOrigin: '50% 50%' });
