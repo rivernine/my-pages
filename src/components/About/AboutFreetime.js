@@ -31,21 +31,21 @@ export default function AboutFreetime() {
                 <HStack mt="30px" spacing="100px">
                   <VStack spacing="15px">
 
-                    <Flex w="550px" alignItems={"center"}>
+                    <Flex alignSelf={"start"} alignItems={"center"}>
                       <Avatar style={{ width: 17, height: 17, marginRight: 8 }} name='Teenblur' src={teenblur} />
                       <Text fontSize={"sm"} fontWeight={400} color="white">
                         <span style={{ fontWeight: 700 }}>틴블러.</span> 학생전용 모바일 플랫폼 (개발중)
                       </Text>
                     </Flex>
 
-                    <Flex w="550px" alignItems={"center"}>
+                    <Flex alignSelf={"start"} alignItems={"center"}>
                       <Avatar style={{ width: 17, height: 17, marginRight: 8 }} name='Antsound' src={antsound} />
                       <Text fontSize={"sm"} fontWeight={400} color="white">
                         <span style={{ fontWeight: 700 }}>개미소리.</span> 코인가격과 커뮤니티 언급 단어의 상관계수 분석 사이트
                       </Text>
                     </Flex>
 
-                    <Flex w="550px" alignItems={"center"}>
+                    <Flex alignSelf={"start"} alignItems={"center"}>
                       <FaChartBar style={{
                         size: 15,
                         color: "white",
@@ -56,7 +56,7 @@ export default function AboutFreetime() {
                       </Text>
                     </Flex>
 
-                    <Flex w="550px" alignItems={"center"}>
+                    <Flex alignSelf={"start"} alignItems={"center"}>
                       <FaRobot style={{
                         size: 15,
                         color: "white",
@@ -67,7 +67,7 @@ export default function AboutFreetime() {
                       </Text>
                     </Flex>
 
-                    <Flex w="550px" alignItems={"center"}>
+                    <Flex alignSelf={"start"} alignItems={"center"}>
                       <FaRobot style={{
                         size: 15,
                         color: "white",

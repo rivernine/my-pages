@@ -1,7 +1,7 @@
 import React from 'react';
 import { HStack, Text, Box, VStack, Grid, GridItem, Image, Flex } from "@chakra-ui/react";
 import profile from "../../assets/profile.jpg";
-import { FaMobileAlt, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaGraduationCap, FaRegStar } from 'react-icons/fa';
+import { FaGoogle, FaRegAddressCard, FaRegBuilding, FaRegKeyboard, FaGraduationCap, FaRegStar } from 'react-icons/fa';
 
 export default function AboutMe() {
 
@@ -24,13 +24,13 @@ export default function AboutMe() {
             <HStack mt="30px" spacing="100px">
               <VStack spacing="15px">
                 <Flex w="250px" alignItems={"center"}>
-                  <FaMobileAlt style={{
+                  <FaGoogle style={{
                     size: 15,
                     color: "white",
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Phone.</span> 010-3056-9411
+                    <span style={{ fontWeight: 700 }}>Email.</span> againine@gmail.com
                   </Text>
                 </Flex>
                 <Flex w="250px" alignItems={"center"}>

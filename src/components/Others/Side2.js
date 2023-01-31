@@ -35,7 +35,7 @@ export default function Side2() {
               <Text color="#FFFFFF">Pandas와 mecab을 활용하여 Text mining & 상관계수 분석 구현 </Text>
             </Flex>
             <Spacer />
-            <Button alignSelf={"end"} leftIcon={<FaLink />} colorScheme={"orange"}
+            <Button style={{marginTop: 30}} alignSelf={"end"} leftIcon={<FaLink />} colorScheme={"orange"}
               onClick={() => window.open('http://antsound.me', '_blank')}>
               ENTER
             </Button>
