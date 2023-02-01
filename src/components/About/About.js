@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { Box, IconButton } from "@chakra-ui/react";
-import background from "../assets/background.jpg";
+import background from "../../assets/background.jpg";
 import { FaAngleDown } from 'react-icons/fa';
-import Intro from './About/Intro';
-import HorizontalTabs from './About/HorizontalTabs';
+import Intro from './Intro';
+import HorizontalTabs from './HorizontalTabs';
 
 export default function About({ AboutFunc }) {
   const aboutRef = useRef(null)

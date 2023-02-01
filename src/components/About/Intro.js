@@ -1,7 +1,7 @@
 import React from 'react';
 import { HStack, Text, Box, VStack, Avatar, Flex } from "@chakra-ui/react";
-import antsound from "../../assets/antsound.ico";
-import teenblur from "../../assets/teenblur.png";
+import antsound from "../../assets/antsound-logo.ico";
+import teenblur from "../../assets/teenblur-logo.png";
 import { FaGithub, } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 

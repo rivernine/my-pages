@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { Box, VStack } from "@chakra-ui/react";
-import Side1 from './Others/Side1';
-import Side2 from './Others/Side2';
-import Side3 from './Others/Side3';
+import Side1 from './Side1';
+import Side2 from './Side2';
+import Side3 from './Side3';
 
 export default function Others({ OthersFunc }) {
 

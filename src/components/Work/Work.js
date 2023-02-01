@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Box, VStack, } from "@chakra-ui/react";
-import Content from './Work/Content';
+import Content from './Content';
 
 export default function Work({ WorkFunc }) {
   const data = [
@@ -46,14 +46,14 @@ export default function Work({ WorkFunc }) {
     },
     {
       project: "DID TFT",
-      date: "2020.04 ~ 2021.08",
+      date: "2020.04 ~ 2020.08",
       hasCustomer: false,
       customer: "LG CNS",
       title: "백오피스 구축을 통한 후방업무지원",
       details: [
         "React.js 기반의 어드민 페이지 개발",
         "Prometheus를 이용하여 Spring 서버 매트릭 수집, Grafana를 통해 서버 모니터링 환경 구성",
-        "Socker.io를 사용, SPA에서 Webhook과 유사한 기능을 개발하여 QR 로그인 기능 구현",
+        "Socket.io를 사용, SPA에서 Webhook과 유사한 기능을 개발하여 QR 로그인 기능 구현",
       ]
     },
     {

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Box, VStack, } from "@chakra-ui/react";
-import Content from './Skills/Content';
+import Content from './Content';
 
 export default function Skills({ SkillsFunc }) {
   const data = [

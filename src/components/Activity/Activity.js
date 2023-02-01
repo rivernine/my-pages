@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from "@chakra-ui/react";
-import CitySvg from './Activity/CitySvg';
-import './Activity/CitySvg.scss';
+import CitySvg from './CitySvg';
+import './CitySvg.scss';
 
 export default function Activity() {
 

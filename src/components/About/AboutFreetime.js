@@ -2,8 +2,8 @@ import React from 'react';
 import { HStack, Text, Box, VStack, Grid, GridItem, Avatar, Flex } from "@chakra-ui/react";
 import { FaChartBar, FaRobot, } from 'react-icons/fa';
 import github from '../../assets/github.png'
-import teenblur from "../../assets/teenblur.png";
-import antsound from "../../assets/antsound.ico";
+import teenblur from "../../assets/teenblur-logo.png";
+import antsound from "../../assets/antsound-logo.ico";
 
 
 export default function AboutFreetime() {

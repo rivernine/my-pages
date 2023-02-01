@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import { Box } from "@chakra-ui/react";
 
-import Header from './components/Header';
-import About from './components/About';
-import Work from './components/Work';
-import Others from './components/Others';
-import Skills from './components/Skills';
-import Activity from './components/Activity';
-import Footer from './components/Footer';
+import Header from './components/header/Header';
+import About from './components/about/About';
+import Work from './components/work/Work';
+import Others from './components/others/Others';
+import Skills from './components/skills/Skills';
+import Activity from './components/activity/Activity';
+import Footer from './components/footer/Footer';
 
 function App() {
 
