@@ -23,7 +23,7 @@ export default function AboutMe() {
             </Text>
             <HStack mt="30px" spacing="100px">
               <VStack spacing="15px">
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaGoogle style={{
                     size: 15,
                     color: "white",
@@ -33,29 +33,29 @@ export default function AboutMe() {
                     <span style={{ fontWeight: 700 }}>Email.</span> againine@gmail.com
                   </Text>
                 </Flex>
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaRegBuilding style={{
                     size: 15,
                     color: "white",
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS
+                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS web3 Service
                   </Text>
                 </Flex>
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaGraduationCap style={{
                     size: 15,
                     color: "white",
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ.
+                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. computer science
                   </Text>
                 </Flex>
               </VStack>
               <VStack spacing="15px">
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaRegAddressCard style={{
                     size: 15,
                     color: "white",
@@ -65,7 +65,7 @@ export default function AboutMe() {
                     <span style={{ fontWeight: 700 }}>Age.</span> 30
                   </Text>
                 </Flex>
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaRegKeyboard style={{
                     size: 15,
                     color: "white",
@@ -75,7 +75,7 @@ export default function AboutMe() {
                     <span style={{ fontWeight: 700 }}>Job.</span> Back-End Engineer
                   </Text>
                 </Flex>
-                <Flex w="250px" alignItems={"center"}>
+                <Flex alignItems={"center"} alignSelf="self-start">
                   <FaRegStar style={{
                     size: 15,
                     color: "white",

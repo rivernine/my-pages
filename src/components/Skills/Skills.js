@@ -8,6 +8,7 @@ export default function Skills({ SkillsFunc }) {
       title: 'Back-End',
       contents: [
         'Java, Python, TypeScript',
+        'AWS EC2, S3, GCP Cloud SQL, Firebase Cloud Messaging, Fire Store',
         'Spring Boot, Nest.js, Spring Batch, ETL, Job Scheduling',
         'TypeORM, MyBatis',
       ]
@@ -15,9 +16,9 @@ export default function Skills({ SkillsFunc }) {
     {
       title: 'DevOps',
       contents: [
-        'Jira, Confluence, Github/GitLab, Jenkins, Docker',
+        'Jira, Confluence, Github/GitLab',
+        'Jenkins, Docker, Nginx',
         'MySQL, MariaDB, Redis, CouchDB',
-        'Nginx',
         'ELK Stack, Prometheus & Grafana',
       ]
     },
@@ -26,7 +27,8 @@ export default function Skills({ SkillsFunc }) {
       contents: [
         'Solidity, Go',
         'Ethereum, Hyperledger Fabric',
-        'Web3, NFT'
+        'IPFS, Web3, NFT(ERC-721, ERC-1155)',
+        'PKCS', '비대칭키 암호화', '전자서명'
       ]
     },
     {
@@ -34,7 +36,7 @@ export default function Skills({ SkillsFunc }) {
       contents: [
         'JavsScript',
         'React, React-Native',
-        'Firebase Cloud Messaging, Push notification'
+        'MUI, Chakra UI, Ant Design'
       ]
     }
   ]

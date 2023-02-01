@@ -15,6 +15,9 @@ export default function Work({ WorkFunc }) {
         "React 페이지 호스팅과 Reverse proxy를 위한 웹서버 구축",
         "Typescript & Nest.js 기반의 서버 개발 및 RESTful API 구현",
         "효율적인 업무 수행을 위해 Jenkins 파이프라인 구축"
+      ],
+      skills: [
+        "Typescript", "MariaDB", "GCP Cloud SQL", "Nginx", "Nest.js", "TypeORM", "Jenkins"
       ]
     },
     {
@@ -28,6 +31,9 @@ export default function Work({ WorkFunc }) {
         "2,000번 이상의 트랜잭션이 발생한 NFT 스마트 컨트랙트 발행 (총거래량: 약 113ETH)",
         "5개의 스마트 컨트랙트에 대한 감사 프로세스 진행 (주관사: Certik, 코드: 약 10,000줄, 비용: $18,000)",
         "EIP-712를 이용한 바우처서비스 구현으로 이더리움 가스비 대폭 절감 (최소 $10,000 -> $0)"
+      ],
+      skills: [
+        "Javascript", "Shell", "Solidity", "Ethereum", "NFT", "Web3.js", "ethers"
       ]
     },
     {
@@ -42,6 +48,9 @@ export default function Work({ WorkFunc }) {
         "Gitlab과 Jenkins를 활용한 CI/CD 파이프라인 구성으로 배포 및 빌드 자동화 환경 구성",
         "Hyperledger Fabric 아키텍처 설계 및 노드 구성, 체인코드 개발",
         "블록체인을 튜닝하여 최대 TPS 기준 write 5%, read 20% 이상 성능 개선",
+      ],
+      skills: [
+        "Java", "Go", "Python", "Groovy", "Hyperledger Fabric", "Gitlab", "Jenkins", "Spring-boot", "Spring Batch", "pymysql", "pandas", "prophet", "Jmeter"
       ]
     },
     {
@@ -54,6 +63,9 @@ export default function Work({ WorkFunc }) {
         "React.js 기반의 어드민 페이지 개발",
         "Prometheus를 이용하여 Spring 서버 매트릭 수집, Grafana를 통해 서버 모니터링 환경 구성",
         "Socket.io를 사용, SPA에서 Webhook과 유사한 기능을 개발하여 QR 로그인 기능 구현",
+      ],
+      skills: [
+        "Javascript", "React", "Prometheus & Grafana", "Socket.io"
       ]
     },
     {
@@ -65,6 +77,9 @@ export default function Work({ WorkFunc }) {
       details: [
         "블록체인 테스팅 툴 코어를 수정하여 MVCC회피 방안 제시",
         "블록체인 트랜잭션 정보를 수집하는 Golang기반의 Event client 자체 제작 & ELK Stack을 통해 데이터 조회 및 모니터링",
+      ],
+      skills: [
+        "Javascript", "Go", "Hyperledger Fabric", "Hyperledger Caliper", "Filebeat", "Logstash", "Elastic Search", "Kibana"
       ]
     },
   ]
@@ -93,6 +108,7 @@ export default function Work({ WorkFunc }) {
                 customer={d.customer}
                 title={d.title}
                 details={d.details}
+                skills={d.skills}
                 divide={idx === data.length - 1 ? false : true}
               />
             )

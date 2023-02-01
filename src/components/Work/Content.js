@@ -1,9 +1,9 @@
 import React from 'react';
-import { Text, Box, Flex, Grid, GridItem, Divider } from "@chakra-ui/react";
+import { Text, Box, Flex, Grid, GridItem, Divider, Tag, HStack } from "@chakra-ui/react";
 import { FaCircle } from 'react-icons/fa';
 
 export default function Content({
-  project, date, hasCustomer, customer, title, details, divide
+  project, date, hasCustomer, customer, title, details, divide, skills
 }) {
   let idx = 0;
 
@@ -22,8 +22,8 @@ export default function Content({
         <Text fontSize={"xs"} fontWeight="400" color="gray.400">
           {
             hasCustomer ?
-            `고객사 - ${customer}` :
-            `LG CNS`
+              `고객사 - ${customer}` :
+              `LG CNS`
           }
         </Text>
       </GridItem>
@@ -33,7 +33,7 @@ export default function Content({
         </Text>
         <Box mt="30px">
           {
-            details.map(detail => {
+            details && details.map(detail => {
               return (
                 <Flex key={idx++} mb="4px">
                   <FaCircle size="10" style={{ marginTop: 6, marginRight: 10 }} />
@@ -43,9 +43,20 @@ export default function Content({
             })
           }
         </Box>
+        {/* <HStack mt="20px"> */}
+        <Box mt="15px">
+          {
+            skills && skills.map(skill => {
+              return (
+                <Tag key={idx++} size="sm" variant="subtle" mr="5px" mt="5px">{skill}</Tag>
+              );
+            })
+          }
+        </Box>
+        {/* </HStack> */}
       </GridItem>
     </Grid>
-    {divide && <Divider style={{ marginTop: 60, marginBottom: 20 }} />}
+    {divide && <Divider style={{ marginTop: 50, marginBottom: 20 }} />}
   </>
   );
 }
