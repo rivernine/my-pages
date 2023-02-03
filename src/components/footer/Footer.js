@@ -11,7 +11,7 @@ export default function Footer() {
       bgColor="#0f1218">
       <VStack>
         <Text color="white" fontWeight={700} ><span style={{ color: "#ED8936" }}>강재구</span> - againine@gmail.com</Text>
-        <Text color="#666666" fontSize={"sm"} fontWeight={400} >Last updated: 2023-01-31</Text>
+        <Text color="#666666" fontSize={"sm"} fontWeight={400} >Last updated: 2023-02-03</Text>
       </VStack>
       <IconButton
         variant='outline'
