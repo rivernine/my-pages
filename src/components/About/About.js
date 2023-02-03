@@ -16,7 +16,7 @@ export default function About({ AboutFunc }) {
   })
 
   return (<>
-    <Box w="100%" h="100vh" bgColor="blue.300"
+    <Box w="100%" h="100vh"
       bgImage={`url(${background})`} bgRepeat="no-repeat" bgSize={"cover"}
       justifyContent="center" alignItems={"center"} display="flex"
     >
