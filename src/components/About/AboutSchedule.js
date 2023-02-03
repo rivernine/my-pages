@@ -6,7 +6,6 @@ export default function AboutSchedule() {
 
   const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
-  const [isLargerThan750] = useMediaQuery('(min-width: 750px)')
 
   const renderContentLargerThan1000 = () => {
     return (
@@ -39,7 +38,7 @@ export default function AboutSchedule() {
         >
           <Box
             bgColor="#00000099" backdropFilter="auto" backdropBlur={"2px"}
-            borderRadius="10px" px="20px">
+            borderRadius="0px" px="20px">
             <Text fontSize={"xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>schedule</span></Text>
             <Text fontSize="sm" mt="15px" color="white" fontWeight={400}>
               매일 저녁, Trello를 활용하여 일정의 카테고리와 우선순위 책정, 진행도 등을 정리하여 효율적인 일정 관리를 위해 노력합니다.

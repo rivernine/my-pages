@@ -8,9 +8,7 @@ import VerticalTabs from './VerticalTabs';
 
 export default function About({ AboutFunc }) {
 
-  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
-  const [isLargerThan750] = useMediaQuery('(min-width: 750px)')
 
   const aboutRef = useRef(null)
   const gotoScroll = () => {
@@ -28,7 +26,6 @@ export default function About({ AboutFunc }) {
     >
       <Intro />
       <IconButton
-        // variant='outline'
         colorScheme='orange'
         aria-label='down'
         icon={<FaAngleDown />}

@@ -53,7 +53,6 @@ export default function Skills({ SkillsFunc }) {
     <Box id="skills" ref={skillsRef} w="100%" bgColor="white" py="100px"
       justifyContent={"center"} alignItems="center" display="flex">
       <VStack w="100%" maxWidth="1000px" >
-        {/* <Content2 /> */}
         {
           data.map((d, idx) => {
             return (

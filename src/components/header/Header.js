@@ -8,8 +8,6 @@ export default function Header({
   SkillsFunc
 }) {
 
-  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
-  const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
   const [isLargerThan750] = useMediaQuery('(min-width: 750px)')
 
   const [selected, setSelected] = useState(0)

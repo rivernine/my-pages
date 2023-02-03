@@ -7,7 +7,6 @@ export default function Content({
 }) {
   let idx = 0;
 
-  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
   const [isLargerThan750] = useMediaQuery('(min-width: 750px)')
 
@@ -118,7 +117,7 @@ export default function Content({
               })
             }
           </Box>
-          {divide && <Divider style={{ marginTop: 50, marginBottom: 20 }} />}
+          {divide && <Divider style={{ marginTop: 25, marginBottom: 10 }} />}
         </VStack>
       </>
     );

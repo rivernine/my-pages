@@ -7,7 +7,6 @@ export default function Side2() {
 
   let idx = 0;
 
-  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
   const [isLargerThan850] = useMediaQuery('(min-width: 850px)')
 
