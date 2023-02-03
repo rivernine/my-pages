@@ -3,7 +3,7 @@ import { Text, Box, Flex, Grid, GridItem, Divider, Tag, HStack } from "@chakra-u
 import { FaCircle } from 'react-icons/fa';
 
 export default function Content({
-  project, date, hasCustomer, customer, title, details, divide, skills
+  project, date, hasCustomer, customer, title, details, detailsComponent, divide, skills
 }) {
   let idx = 0;
 
@@ -33,17 +33,18 @@ export default function Content({
         </Text>
         <Box mt="30px">
           {
-            details && details.map(detail => {
+            details && details.map((detail, j) => {
               return (
                 <Flex key={idx++} mb="4px">
-                  <FaCircle size="10" style={{ marginTop: 6, marginRight: 10 }} />
-                  <Text>{detail}</Text>
+                  <HStack>
+                    <Text fontSize={10} alignSelf="flex-start" mt="5px">● </Text>
+                    <Text>{detail}{detailsComponent && detailsComponent[j] && detailsComponent[j]}</Text>
+                  </HStack>
                 </Flex>
               )
             })
           }
         </Box>
-        {/* <HStack mt="20px"> */}
         <Box mt="15px">
           {
             skills && skills.map(skill => {
@@ -53,7 +54,6 @@ export default function Content({
             })
           }
         </Box>
-        {/* </HStack> */}
       </GridItem>
     </Grid>
     {divide && <Divider style={{ marginTop: 50, marginBottom: 20 }} />}

@@ -40,7 +40,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS web3 Service
+                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS web3 service
                   </Text>
                 </Flex>
                 <Flex alignItems={"center"} alignSelf="self-start">

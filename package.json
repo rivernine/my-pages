@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^3.2.3",
     "react-icons": "^3.11.0",
+    "react-pdf": "^6.2.2",
     "react-scripts": "5.0.1",
     "react-type-animation": "^2.1.2",
     "sass": "^1.57.1",

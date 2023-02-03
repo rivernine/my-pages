@@ -28,7 +28,6 @@ export default function Skills({ SkillsFunc }) {
         'Solidity, Go',
         'Ethereum, Hyperledger Fabric',
         'IPFS, Web3, NFT(ERC-721, ERC-1155)',
-        'PKCS', '비대칭키 암호화', '전자서명'
       ]
     },
     {

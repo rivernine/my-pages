@@ -1,5 +1,5 @@
 import React from 'react';
-import { HStack, Text, Box, VStack, Avatar, Flex } from "@chakra-ui/react";
+import { HStack, Text, Box, VStack, Avatar, Flex, Tooltip } from "@chakra-ui/react";
 import antsound from "../../assets/antsound-logo.ico";
 import teenblur from "../../assets/teenblur-logo.png";
 import { FaGithub, } from 'react-icons/fa';
@@ -61,15 +61,21 @@ export default function Intro() {
         </Flex>
 
         <HStack>
-          <a href="https://github.com/rivernine" target="_blank" rel="noreferrer">
-            <FaGithub style={{ color: "white", width: 23, height: 23 }} />
-          </a>
-          <a href="https://teenblur.com" target="_blank" rel="noreferrer" >
-            <Avatar style={{ width: 25, height: 25 }} name='Teenblur' src={teenblur} />
-          </a>
-          <a href="http://antsound.me" target="_blank" rel="noreferrer" >
-            <Avatar style={{ color: "white", width: 25, height: 25 }} name='Antsound' src={antsound} />
-          </a>
+          <Tooltip label="깃허브">
+            <a href="https://github.com/rivernine" target="_blank" rel="noreferrer">
+              <FaGithub style={{ color: "white", width: 23, height: 23 }} />
+            </a>
+          </Tooltip>
+          <Tooltip label="틴블러">
+            <a href="https://teenblur.com" target="_blank" rel="noreferrer" >
+              <Avatar style={{ width: 25, height: 25 }} name='Teenblur' src={teenblur} />
+            </a>
+          </Tooltip>
+          <Tooltip label="개미소리">
+            <a href="http://antsound.me" target="_blank" rel="noreferrer" >
+              <Avatar style={{ color: "white", width: 25, height: 25 }} name='Antsound' src={antsound} />
+            </a>
+          </Tooltip>
         </HStack>
       </VStack>
     </Box>

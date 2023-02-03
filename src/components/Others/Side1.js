@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Box, VStack, Flex, Image, Button } from "@chakra-ui/react";
+import { Text, Box, VStack, Flex, Image, Button, Tooltip } from "@chakra-ui/react";
 import { FaCircle, FaLink } from 'react-icons/fa';
 import teenblurIntro from '../../assets/teenblur-intro.png'
 
@@ -8,7 +8,7 @@ export default function Side1() {
   return (<>
     <Box w="1000px">
       <Box display="flex" position="relative">
-        <Image src={teenblurIntro} style={{ width: 500, height: "auto", }} borderRightRadius="30px" shadow={4}/>
+        <Image src={teenblurIntro} style={{ width: 500, height: "auto", }} borderRightRadius="30px" shadow={4} />
         <Box w="600px" bgColor={"#191e28"} mt="30px" right="0"
           position="absolute" borderRadius={"30px"} p="40px" >
           <Text fontSize="sm" fontWeight="400" color="#AAAAAA">학생 전용 모바일 플랫폼</Text>
@@ -41,10 +41,12 @@ export default function Side1() {
               <FaCircle color="#ED8936" size="10" style={{ marginRight: 10 }} />
               <Text color="#FFFFFF">Java / Spring 기반의 서버와 Nginx 기반의 웹서버 구축</Text>
             </Flex>
-            <Button style={{marginTop: 30}} alignSelf={"end"} leftIcon={<FaLink />} colorScheme={"orange"}
-              onClick={() => window.open('https://teenblur.com', '_blank')}>
-              ENTER
-            </Button>
+            <Tooltip label="틴블러 소개 웹사이트로 연결됩니다.">
+              <Button style={{ marginTop: 30 }} alignSelf={"end"} leftIcon={<FaLink />} colorScheme={"orange"}
+                onClick={() => window.open('https://teenblur.com', '_blank')}>
+                ENTER
+              </Button>
+            </Tooltip>
           </VStack>
         </Box>
       </Box>
