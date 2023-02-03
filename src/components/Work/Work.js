@@ -62,18 +62,16 @@ export default function Work({ WorkFunc }) {
         "블록체인 성능 개선을 위해 버전 업그레이드와 OS 파라미터 튜닝, 블록생성설정 변경 등의 작업들을 수행하여 최대 TPS 기준 write 5%, read 20% 이상 성능 개선",
       ],
       detailsComponent: [
-        null,
         <Tooltip label="Spring Batch를 활용한 ETL구현 가이드로 연결됩니다.">
           <IconButton icon={<FaLink />} colorScheme={"orange"} variant="ghost" size="xs"
             onClick={() => window.open('https://velog.io/@rivernine/series/ETL', '_blank')} />
-        </Tooltip>
-        ,
+        </Tooltip>,
+        null,
         null,
         <Tooltip label="Hyperledger Fabric v2.2 구축 가이드로 연결됩니다.">
           <IconButton icon={<FaLink />} colorScheme={"orange"} variant="ghost" size="xs"
             onClick={() => window.open('https://velog.io/@rivernine/Hyperledger-Fabric-v2.2-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%AF%B8%EC%82%AC%EC%9A%A9', '_blank')} />
-        </Tooltip>
-        ,
+        </Tooltip>,
         null,
       ],
       skills: [

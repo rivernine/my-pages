@@ -81,7 +81,7 @@ export default function Intro() {
       bgColor="#00000050" borderRadius={isLargerThan750 ? "30px" : "0px"}
       display="flex" justifyContent="center" alignItems={"center"}
     >
-      <VStack px="50px" py="50px">
+      <VStack px={isLargerThan750 ?"50px" : "20px"} py="50px">
         <Flex flexDir="column" mb={isLargerThan1000 ? "50px" : "20px"}>
           {renderTypeAnimation()}
           {

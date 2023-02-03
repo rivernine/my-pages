@@ -15,6 +15,7 @@ export default function Side2() {
     "10개의 크롤러와 9개의 ETL 배치 서비스를 안정적으로 스케줄링",
     "Pandas와 mecab을 활용하여 Text mining & 상관계수 분석 구현 ",
     "Socket.io를 활용하여 실시간 단어 수집 및 채팅 구현",
+    "Java / Spring 기반의 서버와 Nginx 기반의 웹서버 구축",
   ]
 
   const renderContentLargerThan850 = () => {
@@ -24,7 +25,7 @@ export default function Side2() {
           <Box h="500px">
             <Image src={antsoundIntro} style={{ width: 750, height: 'auto', right: 0, position: "absolute" }} borderLeftRadius="30px" shadow={4} zIndex={0} />
           </Box>
-          <Box w="600px" bgColor={"#191e28"} mt="60px"
+          <Box w="600px" bgColor={"#191e28"} mt="30px"
             position="absolute" borderRadius={"30px"} p="40px" >
             <Text fontSize="sm" fontWeight="400" color="#AAAAAA">코인과 단어의 상관계수 분석 사이트</Text>
             <Text fontSize={"2xl"} fontWeight="700" color="white">

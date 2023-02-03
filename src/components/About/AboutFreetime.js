@@ -102,7 +102,7 @@ export default function AboutFreetime() {
 
             <Flex flexDir={"column"}>
               <Text fontSize={"xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>freetime</span></Text>
-              <Text fontSize={"xs"} mt="15px" color="white" fontWeight={400}>
+              <Text fontSize={"sm"} mt="15px" color="white" fontWeight={400}>
                 다양한 주제에 대해 브레인스토밍하는 것을 좋아합니다.
                 학습한 내용이나 새로운 아이디어는 남는 시간을 활용하여 구체화합니다.
                 2021년 4월부터 시작하여 지금까지 7개의 사이드 프로젝트를 진행하고 있으며 2,000회 이상의 commit을 했습니다. (2023년 1월 기준)

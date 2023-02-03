@@ -53,7 +53,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. computer science
+                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. software engineering
                   </Text>
                 </Flex>
               </VStack>
@@ -139,7 +139,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"xs"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. computer science
+                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. software engineering
                   </Text>
                 </Flex>
                 <Flex alignItems={"center"} alignSelf="self-start">
