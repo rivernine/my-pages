@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba714cd.css",
-    "main.js": "/static/js/main.79de8161.js",
+    "main.js": "/static/js/main.27a4f8b5.js",
     "static/js/787.75839425.chunk.js": "/static/js/787.75839425.chunk.js",
     "static/media/background.jpg": "/static/media/background.3985cdb2f2593ff7761b.jpg",
     "static/media/profile.jpg": "/static/media/profile.d57b769953fa426e003c.jpg",
@@ -10,14 +10,14 @@
     "static/media/crypto-generator-intro.png": "/static/media/crypto-generator-intro.3ddc3f7352f79b84b4d4.png",
     "static/media/trello.png": "/static/media/trello.f68410e055a636e391f4.png",
     "static/media/github.png": "/static/media/github.3ee524cf883e740545f0.png",
-    "static/media/antsound.ico": "/static/media/antsound.9457e61d220925ccf34d.ico",
+    "static/media/antsound-logo.ico": "/static/media/antsound-logo.9457e61d220925ccf34d.ico",
     "index.html": "/index.html",
     "main.5ba714cd.css.map": "/static/css/main.5ba714cd.css.map",
-    "main.79de8161.js.map": "/static/js/main.79de8161.js.map",
+    "main.27a4f8b5.js.map": "/static/js/main.27a4f8b5.js.map",
     "787.75839425.chunk.js.map": "/static/js/787.75839425.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba714cd.css",
-    "static/js/main.79de8161.js"
+    "static/js/main.27a4f8b5.js"
   ]
 }
