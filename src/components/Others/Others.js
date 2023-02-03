@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Box, VStack } from "@chakra-ui/react";
+import { Box, Divider, VStack } from "@chakra-ui/react";
 import Side1 from './Side1';
 import Side2 from './Side2';
 import Side3 from './Side3';
@@ -16,20 +16,21 @@ export default function Others({ OthersFunc }) {
   })
 
   return (<>
-    <VStack spacing={0}>
-      <Box id="others" ref={othersRef} w="100%" py="100px"
-        justifyContent={"center"} alignItems="center" display="flex"
-        bgColor="#0f1218">
+    <VStack py="100px" spacing={"20px"} bgColor="#0f1218">
+      <Box id="others" ref={othersRef} w="100%"
+        justifyContent={"center"} alignItems="center" display="flex">
         <Side1 />
       </Box>
-      <Box w="100%" py="100px"
-        justifyContent={"center"} alignItems="center" display="flex"
-        bgColor="#0f1218">
+
+      <Divider bgColor={"#0f1218"} />
+
+      <Box w="100%" justifyContent={"center"} alignItems="center" display="flex">
         <Side2 />
       </Box>
-      <Box w="100%" py="100px"
-        justifyContent={"center"} alignItems="center" display="flex"
-        bgColor="#0f1218">
+
+      <Divider bgColor={"#0f1218"} />
+
+      <Box w="100%" justifyContent={"center"} alignItems="center" display="flex">
         <Side3 />
       </Box>
     </VStack>

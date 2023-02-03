@@ -1,11 +1,17 @@
 import React, { useEffect, useRef } from 'react';
-import { Box, IconButton } from "@chakra-ui/react";
-import background from "../../assets/background.jpg";
+import { Box, IconButton, useMediaQuery } from "@chakra-ui/react";
+import background from "../../assets/background-4k.jpg";
 import { FaAngleDown } from 'react-icons/fa';
 import Intro from './Intro';
 import HorizontalTabs from './HorizontalTabs';
+import VerticalTabs from './VerticalTabs';
 
 export default function About({ AboutFunc }) {
+
+  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
+  const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
+  const [isLargerThan750] = useMediaQuery('(min-width: 750px)')
+
   const aboutRef = useRef(null)
   const gotoScroll = () => {
     aboutRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -34,10 +40,14 @@ export default function About({ AboutFunc }) {
         onClick={gotoScroll}
       />
     </Box>
-    <Box ref={aboutRef} w="100%" h="500px" bgColor="#0f1218"
+    <Box ref={aboutRef} w="100%" h={isLargerThan1000 ? "500px" : "auto"} bgColor="#0f1218"
       justifyContent="center" alignItems={"center"} display="flex"
     >
-      <HorizontalTabs />
+      {
+        isLargerThan1000 ?
+          <HorizontalTabs /> :
+          <VerticalTabs />
+      }
     </Box>
   </>
   );
