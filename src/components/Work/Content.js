@@ -1,6 +1,5 @@
 import React from 'react';
 import { Text, Box, Flex, Grid, GridItem, Divider, Tag, HStack, useMediaQuery, VStack } from "@chakra-ui/react";
-import { FaCircle } from 'react-icons/fa';
 
 export default function Content({
   project, date, hasCustomer, customer, title, details, detailsComponent, divide, skills
