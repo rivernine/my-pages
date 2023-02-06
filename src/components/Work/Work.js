@@ -13,13 +13,13 @@ export default function Work({ WorkFunc }) {
       title: "블록체인 스캐너 백엔드 아키텍처 설계 및 서버 개발",
       details: [
         "서버 인프라 등 백엔드 아키텍처 구성 및 RDB Scheme 정의",
-        "React 페이지 호스팅과 Reverse proxy를 위한 웹서버 구축",
         "Typescript & Nest.js 기반의 서버 개발 및 RESTful API 구현",
-        "TypeORM, Data Mapper패턴을 사용하여 RDB와의 관계 매핑, Exception filter를 오버라이딩하여 표준화 작업",
+        "TypeORM, Data Mapper패턴을 사용하여 RDB와의 관계 매핑",
+        "Exception Filter 및 Validation Pipe를 오버라이딩하여 표준화 작업",
         "효율적인 업무 수행을 위해 Jenkins 파이프라인 구축"
       ],
       skills: [
-        "Typescript", "MariaDB", "GCP Cloud SQL", "Nginx", "Nest.js", "TypeORM", "Jenkins"
+        "Typescript", "MariaDB", "GCP Cloud SQL", "Apigee", "Nest.js", "TypeORM", "Jenkins"
       ]
     },
     {
@@ -45,7 +45,7 @@ export default function Work({ WorkFunc }) {
         null
       ],
       skills: [
-        "Javascript", "Shell", "Solidity", "Ethereum", "NFT", "Web3.js", "ethers"
+        "Javascript", "Shell", "Solidity", "Ethereum", "NFT", "Web3.js", "Ethers"
       ]
     },
     {
@@ -75,7 +75,7 @@ export default function Work({ WorkFunc }) {
         null,
       ],
       skills: [
-        "Java", "Go", "Python", "Groovy", "Hyperledger Fabric", "Gitlab", "Jenkins", "Spring-boot", "Spring Batch", "pymysql", "pandas", "prophet", "Jmeter"
+        "Java", "Go", "Python", "Groovy", "Hyperledger Fabric", "Gitlab", "Jenkins", "Spring-boot", "Spring Batch", "Pymysql", "Pandas", "Prophet", "Jmeter"
       ]
     },
     {

@@ -35,7 +35,8 @@ export default function Skills({ SkillsFunc }) {
       contents: [
         'JavsScript',
         'React, React-Native',
-        'MUI, Chakra UI, Ant Design'
+        'MUI, Chakra UI, Ant Design',
+        "Google Analytics"
       ]
     }
   ]
