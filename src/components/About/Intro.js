@@ -78,7 +78,8 @@ export default function Intro() {
 
   return (<>
     <Box w="100%" maxWidth={isLargerThan1200 ? "1000px" : isLargerThan1000 ? "800px" : "750px"}
-      bgColor="#00000050" borderRadius={isLargerThan750 ? "30px" : "0px"}
+      bgColor="#00000030" borderRadius={isLargerThan750 ? "30px" : "0px"}
+      backdropFilter="auto" backdropBlur="sm" 
       display="flex" justifyContent="center" alignItems={"center"}
     >
       <VStack px={isLargerThan750 ?"50px" : "20px"} py="50px">
