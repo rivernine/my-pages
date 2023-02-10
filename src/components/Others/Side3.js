@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text, Box, VStack, Flex, Image, Button, Tooltip, useMediaQuery } from "@chakra-ui/react";
-import { FaCircle, FaLink } from 'react-icons/fa';
+import { Text, Box, VStack, Flex, Image, Button, Tooltip, useMediaQuery, HStack } from "@chakra-ui/react";
+import { FaLink } from 'react-icons/fa';
 import cryptoGeneratorIntro from '../../assets/crypto-generator-intro.png'
 
 export default function Side3() {
@@ -35,9 +35,11 @@ export default function Side3() {
               {
                 data.map(d => {
                   return (
-                    <Flex key={idx++} mb="4px" alignItems={"center"}>
-                      <FaCircle color="#ED8936" size="10" style={{ marginRight: 10 }} />
-                      <Text color="#FFFFFF">{d}</Text>
+                    <Flex key={idx++} mb="4px">
+                      <HStack>
+                        <Text fontSize={10} color="#ED8936" alignSelf="flex-start" mt="5px">● </Text>
+                        <Text color="#FFFFFF">{d}</Text>
+                      </HStack>
                     </Flex>
                   )
                 })
@@ -75,9 +77,11 @@ export default function Side3() {
               {
                 data.map(d => {
                   return (
-                    <Flex key={idx++} mb="2px" alignItems={"center"}>
-                      <FaCircle color="#ED8936" size="8" style={{ marginRight: 10 }} />
-                      <Text fontSize="sm" color="#FFFFFF">{d}</Text>
+                    <Flex key={idx++} mb="4px">
+                      <HStack>
+                        <Text fontSize={8} color="#ED8936" alignSelf="flex-start" mt="5px">● </Text>
+                        <Text fontSize="sm" color="#FFFFFF">{d}</Text>
+                      </HStack>
                     </Flex>
                   )
                 })

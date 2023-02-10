@@ -79,10 +79,10 @@ export default function Intro() {
   return (<>
     <Box w="100%" maxWidth={isLargerThan1200 ? "1000px" : isLargerThan1000 ? "800px" : "750px"}
       bgColor="#00000030" borderRadius={isLargerThan750 ? "30px" : "0px"}
-      backdropFilter="auto" backdropBlur="sm" 
+      backdropFilter="auto" backdropBlur="sm"
       display="flex" justifyContent="center" alignItems={"center"}
     >
-      <VStack px={isLargerThan750 ?"50px" : "20px"} py="50px">
+      <VStack px={isLargerThan750 ? "50px" : "20px"} py="50px">
         <Flex flexDir="column" mb={isLargerThan1000 ? "50px" : "20px"}>
           {renderTypeAnimation()}
           {
@@ -99,6 +99,14 @@ export default function Intro() {
           <Text fontSize={isLargerThan1000 ? "lg" : "md"} fontWeight={400} color="#FFFFFF">동작보다는 <span style={{ fontWeight: "800", color: "white" }}>데이터 중심의 프로그래밍</span>을 통해 최적화와 일관성을 고민하고, 코드리뷰 및 리팩토링에 많은 시간을 투자합니다.</Text>
         </Flex>
         {renderIcons()}
+        <Flex alignSelf={"flex-end"} mt="10px">
+          <Text style={{
+            fontSize: 12, fontWeight: 400, color: "#FFFFFF",
+            fontFamily: 'GmarketSansMedium'
+          }}>
+            <span style={{fontWeight: 800}}>Last updated.</span> 2023-02-10
+          </Text>
+        </Flex>
       </VStack>
     </Box>
 
