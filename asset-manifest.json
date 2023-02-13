@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba714cd.css",
-    "main.js": "/static/js/main.bb2cb74b.js",
+    "main.js": "/static/js/main.e2171eea.js",
     "static/media/background-4k.jpg": "/static/media/background-4k.3985cdb2f2593ff7761b.jpg",
     "static/media/profile.jpg": "/static/media/profile.d57b769953fa426e003c.jpg",
     "static/media/antsound-intro.png": "/static/media/antsound-intro.24247340f50da928b583.png",
@@ -12,10 +12,10 @@
     "static/media/antsound-logo.ico": "/static/media/antsound-logo.9457e61d220925ccf34d.ico",
     "index.html": "/index.html",
     "main.5ba714cd.css.map": "/static/css/main.5ba714cd.css.map",
-    "main.bb2cb74b.js.map": "/static/js/main.bb2cb74b.js.map"
+    "main.e2171eea.js.map": "/static/js/main.e2171eea.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba714cd.css",
-    "static/js/main.bb2cb74b.js"
+    "static/js/main.e2171eea.js"
   ]
 }
