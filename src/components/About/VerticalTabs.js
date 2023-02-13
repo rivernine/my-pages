@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider, VStack } from "@chakra-ui/react";
 import AboutMe from './AboutMe';
-import AboutFreetime from './AboutFreetime';
+import AboutStudy from './AboutStudy';
 import "./hideScrollbar.css";
 import AboutSchedule from './AboutSchedule';
 
@@ -11,7 +11,7 @@ export default function VerticalTabs() {
     <VStack >
       <AboutMe />
       <Divider style={{marginTop: 30}}/>
-      <AboutFreetime />
+      <AboutStudy />
       <Divider style={{marginTop: 30}}/>
       <AboutSchedule />
     </VStack>

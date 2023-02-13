@@ -8,6 +8,7 @@ import Others from './others/Others';
 import Skills from './skills/Skills';
 import Activity from './activity/Activity';
 import Footer from './footer/Footer';
+import Company from './company/Company';
 
 function Resume() {
 
@@ -25,6 +26,7 @@ function Resume() {
         SkillsFunc={SkillsFunc}
       />
       <About AboutFunc={AboutFunc} />
+      <Company />
       <Work WorkFunc={WorkFunc} />
       <Others OthersFunc={OthersFunc} />
       <Skills SkillsFunc={SkillsFunc} />

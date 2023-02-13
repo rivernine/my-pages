@@ -19,10 +19,10 @@ export default function AboutMe() {
           <Flex flexDir={"column"}>
             <Text fontSize={"2xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>me</span></Text>
             <Text mt="15px" color="white" fontWeight={400}>
-              Java & Spring 기반의 서버 구축 및 컨테이너 환경의 서비스 배포를 주로 해왔습니다.
-              ELK Stack / Prometheus & Grafana 를 사용하여 서버의 모니터링 환경을 구축하고
-              반복적인 업무 해소를 위해 CI/CD 파이프라인을 구성할 수 있습니다.
-              또한 Javascript & React 기반의 백오피스를 제작할 수 있습니다.
+              Java & Spring / Typescript & Nest.js 기반의 서버 구축 및 컨테이너 환경의 서비스 배포를 할 수 있습니다.
+              Javascript & React 기반의 백오피스를 제작하고
+              ELK Stack / Prometheus & Grafana 를 사용하여 서버의 모니터링 환경을 함께 구축할 수 있습니다.
+              또한 반복적인 업무 해소를 위해 CI/CD 파이프라인을 구성할 수 있습니다.
             </Text>
             <HStack mt="30px" spacing="100px">
               <VStack spacing="15px">
@@ -43,7 +43,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS web3 service
+                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS Web3 Service
                   </Text>
                 </Flex>
                 <Flex alignItems={"center"} alignSelf="self-start">
@@ -53,7 +53,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"sm"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. software engineering
+                    <span style={{ fontWeight: 700 }}>Major.</span> Konkuk Univ. Software Engineering
                   </Text>
                 </Flex>
               </VStack>
@@ -105,10 +105,10 @@ export default function AboutMe() {
           <Flex flexDir={"column"} px="20px">
             <Text fontSize={"xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>me</span></Text>
             <Text fontSize={"sm"} mt="15px" color="white" fontWeight={400}>
-              Java & Spring 기반의 서버 구축 및 컨테이너 환경의 서비스 배포를 주로 해왔습니다.
-              ELK Stack / Prometheus & Grafana 를 사용하여 서버의 모니터링 환경을 구축하고
-              반복적인 업무 해소를 위해 CI/CD 파이프라인을 구성할 수 있습니다.
-              또한 Javascript & React 기반의 백오피스를 제작할 수 있습니다.
+              Java & Spring / Typescript & Nest.js 기반의 서버 구축 및 컨테이너 환경의 서비스 배포를 할 수 있습니다.
+              Javascript & React 기반의 백오피스를 제작하고
+              ELK Stack / Prometheus & Grafana 를 사용하여 서버의 모니터링 환경을 함께 구축할 수 있습니다.
+              또한 반복적인 업무 해소를 위해 CI/CD 파이프라인을 구성할 수 있습니다.
             </Text>
             <HStack mt="30px" spacing="100px">
               <VStack spacing="15px">
@@ -129,7 +129,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"xs"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS web3 service
+                    <span style={{ fontWeight: 700 }}>Employment.</span> LG CNS Web3 Service
                   </Text>
                 </Flex>
                 <Flex alignItems={"center"} alignSelf="self-start">
@@ -139,7 +139,7 @@ export default function AboutMe() {
                     marginRight: 8
                   }} />
                   <Text fontSize={"xs"} fontWeight={400} color="white">
-                    <span style={{ fontWeight: 700 }}>Study.</span> Konkuk Univ. software engineering
+                    <span style={{ fontWeight: 700 }}>Major.</span> Konkuk Univ. Software Engineering
                   </Text>
                 </Flex>
                 <Flex alignItems={"center"} alignSelf="self-start">

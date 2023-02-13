@@ -6,52 +6,52 @@ import teenblur from "../../assets/teenblur-logo.png";
 import antsound from "../../assets/antsound-logo.ico";
 import { TypeAnimation } from 'react-type-animation';
 
-const renderTypeAnimation = () => {
-  return (
-    <HStack mt="20px" alignSelf={"flex-end"}>
-      <Text style={{
-        fontSize: 12, fontWeight: 400, color: "#FFFFFF",
-        fontFamily: 'GmarketSansMedium'
-      }}>
-        <TypeAnimation
-          sequence={[
-            'React',
-            2000,
-            'React-Native',
-            2000,
-            'Firebase Cloud Messaging',
-            2000,
-            'OAuth & JWT',
-            2000,
-            'ETL',
-            2000,
-            'Push Notification',
-            2000,
-            'Web/Mobile App Service Architecture',
-            2000,
-            'React Hook',
-            2000,
-            'Pymysql & Pandas',
-            2000,
-          ]}
-          speed={40}
-          style={{
-            fontSize: 12, fontWeight: 800, color: "#ED8936",
-            fontFamily: 'GmarketSansMedium'
-          }}
-          wrapper="span"
-          repeat={Infinity}
-        />
-        을(를) 배웠어요!
-      </Text>
-    </HStack>
-  )
-}
-
-export default function AboutFreetime() {
+export default function AboutStudy() {
 
   const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)')
   const [isLargerThan1000] = useMediaQuery('(min-width: 1000px)')
+
+  const renderTypeAnimation = () => {
+    return (
+      <HStack mt={isLargerThan1200 ? "20px" : "10px"} alignSelf={"flex-end"}>
+        <Text style={{
+          fontSize: isLargerThan1200 ? 12 : 11, fontWeight: 400, color: "#FFFFFF",
+          fontFamily: 'GmarketSansMedium'
+        }}>
+          <TypeAnimation
+            sequence={[
+              'React',
+              2000,
+              'React-Native',
+              2000,
+              'Firebase Cloud Messaging',
+              2000,
+              'OAuth & JWT',
+              2000,
+              'ETL',
+              2000,
+              'Push Notification',
+              2000,
+              'Web/Mobile App Service Architecture',
+              2000,
+              'React Hook',
+              2000,
+              'Pymysql & Pandas',
+              2000,
+            ]}
+            speed={40}
+            style={{
+              fontSize: isLargerThan1200 ? 12 : 11, fontWeight: 800, color: "#ED8936",
+              fontFamily: 'GmarketSansMedium'
+            }}
+            wrapper="span"
+            repeat={Infinity}
+          />
+          을(를) 배웠어요!
+        </Text>
+      </HStack>
+    )
+  }
 
   const renderContentLargerThan1000 = () => {
     return (
@@ -69,7 +69,7 @@ export default function AboutFreetime() {
               <Flex flexDir={"column"}>
                 <Text fontSize={"2xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>study</span></Text>
                 <Text mt="15px" color="white" fontWeight={400}>
-                  업무환경에서 배울 수 없는 새로운 기술을 학습하는 것을 좋아합니다.
+                  <span style={{ fontWeight: 700 }}>새로운 기술을 학습하는 것을 좋아합니다.</span> 업무환경에서 사용하지 않아 배울 수 없었던 기술들을 여가시간을 통해 스스로 학습합니다.
                   새로 학습한 기술 스택들을 다루기 위해 다양한 주제에 대해 브레인스토밍하여 아이디어를 도출하고 개발합니다.
                   2021년 4월부터 시작하여 지금까지 7개의 사이드 프로젝트를 진행한 바 있으며 2,300회 이상의 commit을 했습니다. (2023년 2월 기준)
                 </Text>
@@ -145,12 +145,13 @@ export default function AboutFreetime() {
           >
 
             <Flex flexDir={"column"}>
-              <Text fontSize={"xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>freetime</span></Text>
+              <Text fontSize={"xl"} fontWeight="700" color="white">About <span style={{ color: "#ED8936" }}>study</span></Text>
               <Text fontSize={"sm"} mt="15px" color="white" fontWeight={400}>
-                다양한 주제에 대해 브레인스토밍하는 것을 좋아합니다.
-                학습한 내용이나 새로운 아이디어는 남는 시간을 활용하여 구체화합니다.
-                2021년 4월부터 시작하여 지금까지 7개의 사이드 프로젝트를 진행하고 있으며 2,300회 이상의 commit을 했습니다. (2023년 2월 기준)
+                <span style={{ fontWeight: 700 }}>새로운 기술을 학습하는 것을 좋아합니다.</span> 업무환경에서 사용하지 않아 배울 수 없었던 기술들을 여가시간을 통해 스스로 학습합니다.
+                새로 학습한 기술 스택들을 다루기 위해 다양한 주제에 대해 브레인스토밍하여 아이디어를 도출하고 개발합니다.
+                2021년 4월부터 시작하여 지금까지 7개의 사이드 프로젝트를 진행한 바 있으며 2,300회 이상의 commit을 했습니다. (2023년 2월 기준)
               </Text>
+              {renderTypeAnimation()}
               <HStack mt="30px" spacing="100px">
                 <VStack spacing="15px">
 
