@@ -1,36 +1,17 @@
-import React, { useRef } from 'react';
-import { Box } from "@chakra-ui/react";
+import React from 'react';
 
-import Header from './components/header/Header';
-import About from './components/about/About';
-import Work from './components/work/Work';
-import Others from './components/others/Others';
-import Skills from './components/skills/Skills';
-import Activity from './components/activity/Activity';
-import Footer from './components/footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Resume from './components/Resume';
+import AboutMe from './components/about/AboutMe';
 
 function App() {
-
-  const AboutFunc = useRef(null)
-  const WorkFunc = useRef(null)
-  const OthersFunc = useRef(null)
-  const SkillsFunc = useRef(null)
-
   return (<>
-    <Box bgColor={"black"} spacing="0px">
-      <Header
-        AboutFunc={AboutFunc}
-        WorkFunc={WorkFunc}
-        OthersFunc={OthersFunc}
-        SkillsFunc={SkillsFunc}
-      />
-      <About AboutFunc={AboutFunc} />
-      <Work WorkFunc={WorkFunc} />
-      <Others OthersFunc={OthersFunc} />
-      <Skills SkillsFunc={SkillsFunc} />
-      <Activity />
-      <Footer />
-    </Box>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Resume />}></Route>
+        <Route path="/aboutme" element={<AboutMe />}></Route>
+      </Routes>
+    </BrowserRouter>
   </>
   );
 }

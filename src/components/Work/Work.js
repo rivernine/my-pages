@@ -10,7 +10,7 @@ export default function Work({ WorkFunc }) {
       date: "2022.12 ~ 현재",
       hasCustomer: false,
       customer: "LG CNS",
-      title: "블록체인 스캐너 백엔드 아키텍처 설계 및 서버 개발",
+      title: "웹서비스 백엔드 아키텍처 설계 및 서버 개발",
       details: [
         "서버 인프라 등 백엔드 아키텍처 구성 및 RDB Scheme 정의",
         "Typescript & Nest.js 기반의 서버 개발 및 RESTful API 구현",
